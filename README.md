@@ -1,14 +1,14 @@
 # DriveHUD: Decision-Theoretic Pre-Execution Grounding and Verbal Repair in Eyes-Free In-Car VUIs
 
 **Author:** Utkarsh Dev (Student ID: 3149895)  
-**Module:** MSc Intelligent Interactive Systems — University of Birmingham (Prof. Eyal Ofek)  
+**Module:** Intelligent Interactive Systems — University of Birmingham (Prof. Eyal Ofek)  
 **README Prose Word Count:** 718 words *(excluding code blocks and setup commands)*
 
 ---
 
 ## 1. Project Status
 
-- **What was built:** **DriveHUD**, a full-stack MSc-level decision-theoretic automotive Voice User Interface (VUI) and Augmented-Reality Windshield Head-Up Display (AR-HUD) simulator enabling pre-execution conversational grounding and wake-word-free verbal slot repair under realistic driving workload.
+- **What was built:** **DriveHUD**, a full-stack decision-theoretic automotive Voice User Interface (VUI) and Augmented-Reality Windshield Head-Up Display (AR-HUD) simulator enabling pre-execution conversational grounding and wake-word-free verbal slot repair under realistic driving workload.
 - **Implemented & working:**
   - **Horvitz (1999) Expected-Loss Policy Router (`drivehud_engine.py`):** Evaluates candidate grounding actions—*Direct Commit*, *4.0s Prosodic Gate*, and *Explicit Hold*—by minimizing expected utility loss $\arg\min_a EL(a \mid P(s_1 \mid x), L_{\text{err}}, W)$ across four vehicle domains: Hands-Free Comms ($L_{\text{err}}=9.2$), ADAS Speed Limiter ($L_{\text{err}}=8.8$), Navigation ($L_{\text{err}}=7.6$), and Cabin Climate ($L_{\text{err}}=3.8$), scaled by dynamic driving workload $W(v_{\text{mph}}, \text{SNR})$.
   - **Articulatory Phonetic Confusion Graph & Repair Parser:** Maps spoken utterances onto phoneme-class skeletons to resolve N-best phonetic neighbors (*14↔40*, *16↔60*, *Dr. Patel↔Daughter Payal*, *Oak Rd↔York Rd*), supports wake-word-free mid-turn slot patching (*"No, fourteen"*, *"Actually Dr. Patel"*), preserves heard slots on verbal confirmation (*"Yes"*), and rejects passenger chatter.
