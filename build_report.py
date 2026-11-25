@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Builds MSc-level Project_Report_3149895.docx (matching Literature_Review_3149895.docx formatting)
+Builds Project_Report_3149895.docx (matching Literature_Review_3149895.docx formatting)
 and Project_Report_3149895.md for DriveHUD, strictly verifying Assignment 2 word-count limits.
 """
 
