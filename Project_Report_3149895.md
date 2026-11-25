@@ -1,9 +1,8 @@
 # Project Report: DriveHUD — Decision-Theoretic Pre-Execution Grounding and Verbal Repair in Eyes-Free In-Car VUIs
 
 **[Utkarsh Dev] | [3149895] | [Intelligent Interactive Systems] | [University of Birmingham] | [Professor Eyal Ofek] | [25 November 2026]**  
-**Total Report Word Count: 1210 words (Abstract: 257 words | Main Report including Rationale Table: 953 words)**
 
-## Abstract (257 words)
+## Abstract 
 
 In-car voice user interfaces (VUIs) enable eyes-free control of navigation, communications, climate, and driver-assistance settings while visual and manual attention remain occupied on traffic. However, when road, rain, or crosswind noise (50–82 dB) causes automatic speech recognition (ASR) phonetic confusions (e.g., “14 Oak Road” versus “40 Oak Road”, or “Dr. Patel” versus “Daughter Payal”), commercial automotive VUIs conceal low acoustic certainty, commit the misheard action silently, and close the microphone channel. Discovering errors post-execution forces dangerous downward console glances and multi-turn wake-word restarts.
 
