@@ -49,7 +49,7 @@ Figure 3 illustrates three core interaction storyboards (complemented by a fourt
 
 ## 4. Repository and Development Evidence
 
-- Public GitHub Repository & README: https://github.com/utkarshdev/drivehud-pre-execution-vui (Local Git repository on branch main; see README.md).
+- Public GitHub Repository & README: https://github.com/hacjj/Intelligent-Interactive-Systems-Project (Local Git repository on branch main; see README.md).
 
 - Submitted Verification, Benchmark & Server: Run `python3 drivehud_engine.py` to execute all 7 assertions (including the 120-trial policy benchmark), and run `python3 server.py` (http://localhost:8000) to inspect the DriveHUD cockpit, active lane-keeping workload, and benchmark modal.
 
