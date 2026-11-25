@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 690" width="100%" height="100%" style="background-color: #ffffff; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <defs>
+    <filter id="card-sh" x="-3%" y="-3%" width="106%" height="108%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#0f172a" flood-opacity="0.06" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="8" y="8" width="1064" height="674" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5" />
+
+  <!-- ================= STORYBOARD 1 ================= -->
+  <rect x="24" y="22" width="1032" height="30" rx="6" fill="#0f172a" />
+  <text x="38" y="42" font-size="12" font-weight="800" fill="#ffffff">STORYBOARD 1: HIGHWAY RAIN REROUTE (c = 0.61) — PROSODIC READBACK &amp; EYES-ON-ROAD REPAIR</text>
+
+  <!-- Frame 1.1 -->
+  <g transform="translate(24, 62)" filter="url(#card-sh)">
+    <rect width="242" height="150" rx="8" fill="#ffffff" stroke="#0284c7" stroke-width="1.8" />
+    <rect width="242" height="24" rx="8" fill="#e0f2fe" />
+    <text x="12" y="16" font-size="10" font-weight="800" fill="#0369a1">1. DRIVER PTT COMMAND</text>
+    <circle cx="46" cy="68" r="18" fill="#bae6fd" stroke="#0284c7" stroke-width="1.5" />
+    <text x="46" y="72" font-size="9.5" font-weight="800" fill="#0369a1" text-anchor="middle">DRIVER</text>
+    <rect x="74" y="44" width="154" height="44" rx="6" fill="#f1f5f9" stroke="#94a3b8" />
+    <text x="151" y="62" font-size="9.5" font-weight="700" fill="#0f172a" text-anchor="middle">"Navigate to</text>
+    <text x="151" y="77" font-size="9.5" font-weight="700" fill="#0284c7" text-anchor="middle">fourteen Oak Road"</text>
+    <text x="121" y="114" font-size="9.5" font-weight="600" fill="#475569" text-anchor="middle">Eyes on 65 mph wet road</text>
+    <text x="121" y="132" font-size="9.5" fill="#dc2626" text-anchor="middle">+ Rain &amp; tyre noise (72 dB)</text>
+  </g>
+  <path d="M 267 137 L 281 137" stroke="#64748b" stroke-width="2" />
+  <polygon points="287,137 279,132 279,142" fill="#64748b" />
+
+  <!-- Frame 1.2 -->
+  <g transform="translate(288, 62)" filter="url(#card-sh)">
+    <rect width="242" height="150" rx="8" fill="#ffffff" stroke="#d97706" stroke-width="1.8" />
+    <rect width="242" height="24" rx="8" fill="#fef3c7" />
+    <text x="12" y="16" font-size="10" font-weight="800" fill="#92400e">2. RISK-CALIBRATED ROUTER</text>
+    <rect x="18" y="38" width="206" height="46" rx="6" fill="#fffbeb" stroke="#f59e0b" />
+    <text x="121" y="56" font-size="10" font-weight="700" fill="#92400e" text-anchor="middle">ASR 1-Best: "40 Oak Road"</text>
+    <text x="121" y="73" font-size="9.5" font-weight="700" fill="#b45309" text-anchor="middle">Effective c = 0.61 (Risk -0.04)</text>
+    <text x="121" y="106" font-size="9.5" font-weight="700" fill="#0f172a" text-anchor="middle">Router: 0.45 ≤ c &lt; 0.80</text>
+    <text x="121" y="125" font-size="9.5" font-weight="700" fill="#d97706" text-anchor="middle">Holds reroute → Opens 4s gate</text>
+  </g>
+  <path d="M 531 137 L 545 137" stroke="#64748b" stroke-width="2" />
+  <polygon points="551,137 543,132 543,142" fill="#64748b" />
+
+  <!-- Frame 1.3 -->
+  <g transform="translate(552, 62)" filter="url(#card-sh)">
+    <rect width="242" height="150" rx="8" fill="#ffffff" stroke="#d97706" stroke-width="1.8" />
+    <rect width="242" height="24" rx="8" fill="#fef3c7" />
+    <text x="12" y="16" font-size="10" font-weight="800" fill="#92400e">3. PROSODIC TTS + EYE-LINE HUD</text>
+    <rect x="16" y="36" width="210" height="58" rx="6" fill="#0f172a" />
+    <text x="121" y="53" font-size="9.5" font-weight="700" fill="#fbbf24" text-anchor="middle">TTS: "Route to 40 Oak</text>
+    <text x="121" y="68" font-size="10" font-weight="800" fill="#ffffff" text-anchor="middle">Road?" (Rising intonation)</text>
+    <rect x="26" y="76" width="88" height="14" rx="3" fill="#fef3c7" />
+    <text x="70" y="86" font-size="8" font-weight="800" fill="#78350f" text-anchor="middle">40 Oak Rd</text>
+    <rect x="126" y="76" width="88" height="14" rx="3" fill="#cffafe" />
+    <text x="170" y="86" font-size="8" font-weight="800" fill="#083344" text-anchor="middle">14 Oak Rd</text>
+    <text x="121" y="114" font-size="9.5" font-weight="800" fill="#dc2626" text-anchor="middle">4.0s HUD Progress Ring Open</text>
+    <text x="121" y="131" font-size="9" fill="#475569" text-anchor="middle">(Zero downward console glance)</text>
+  </g>
+  <path d="M 795 137 L 809 137" stroke="#64748b" stroke-width="2" />
+  <polygon points="815,137 807,132 807,142" fill="#64748b" />
+
+  <!-- Frame 1.4 -->
+  <g transform="translate(816, 62)" filter="url(#card-sh)">
+    <rect width="240" height="150" rx="8" fill="#ffffff" stroke="#16a34a" stroke-width="1.8" />
+    <rect width="240" height="24" rx="8" fill="#dcfce7" />
+    <text x="12" y="16" font-size="10" font-weight="800" fill="#166534">4. WAKE-WORD-FREE PATCH</text>
+    <rect x="20" y="36" width="200" height="34" rx="6" fill="#f0fdf4" stroke="#16a34a" />
+    <text x="120" y="57" font-size="10.5" font-weight="800" fill="#166534" text-anchor="middle">Driver: "No, fourteen"</text>
+    <text x="120" y="92" font-size="9.5" font-weight="700" fill="#0f172a" text-anchor="middle">Patched: 40 → 14 Oak Road</text>
+    <text x="120" y="111" font-size="9.5" font-weight="700" fill="#16a34a" text-anchor="middle">NAV Updated: ETA 9 min</text>
+    <text x="120" y="131" font-size="9" font-weight="600" fill="#475569" text-anchor="middle">Hands stayed on steering wheel</text>
+  </g>
+
+  <!-- ================= STORYBOARD 2 ================= -->
+  <rect x="24" y="232" width="1032" height="30" rx="6" fill="#0f172a" />
+  <text x="38" y="252" font-size="12" font-weight="800" fill="#ffffff">STORYBOARD 2: QUIET CRUISE (c = 0.93) DIRECT EXECUTION &amp; PASSENGER CHATTER GUARD</text>
+
+  <!-- Frame 2.1 -->
+  <g transform="translate(24, 272)" filter="url(#card-sh)">
+    <rect width="242" height="150" rx="8" fill="#ffffff" stroke="#0284c7" stroke-width="1.8" />
+    <rect width="242" height="24" rx="8" fill="#e0f2fe" />
+    <text x="12" y="16" font-size="10" font-weight="800" fill="#0369a1">1. LOW-RISK CLIMATE COMMAND</text>
+    <rect x="20" y="42" width="202" height="44" rx="6" fill="#f1f5f9" stroke="#94a3b8" />
+    <text x="121" y="60" font-size="9.5" font-weight="700" fill="#0f172a" text-anchor="middle">"Set cabin temperature</text>
+    <text x="121" y="75" font-size="9.5" font-weight="700" fill="#0284c7" text-anchor="middle">to 19 degrees"</text>
+    <text x="121" y="112" font-size="9.5" font-weight="600" fill="#475569" text-anchor="middle">45 mph clear cruise (54 dB)</text>
+    <text x="121" y="130" font-size="9.5" font-weight="700" fill="#16a34a" text-anchor="middle">Effective Confidence: c = 0.93</text>
+  </g>
+  <path d="M 267 347 L 281 347" stroke="#64748b" stroke-width="2" />
+  <polygon points="287,347 279,342 279,352" fill="#64748b" />
+
+  <!-- Frame 2.2 -->
+  <g transform="translate(288, 272)" filter="url(#card-sh)">
+    <rect width="242" height="150" rx="8" fill="#ffffff" stroke="#16a34a" stroke-width="1.8" />
+    <rect width="242" height="24" rx="8" fill="#dcfce7" />
+    <text x="12" y="16" font-size="10" font-weight="800" fill="#166534">2. ZERO CONFIRMATION FATIGUE</text>
+    <rect x="20" y="42" width="202" height="44" rx="6" fill="#f0fdf4" stroke="#16a34a" />
+    <text x="121" y="60" font-size="10" font-weight="800" fill="#166534" text-anchor="middle">Router: c ≥ 0.80 (High Tier)</text>
+    <text x="121" y="76" font-size="9.5" font-weight="700" fill="#0f172a" text-anchor="middle">Commits 19.0°C Immediately</text>
+    <text x="121" y="110" font-size="9.5" font-weight="600" fill="#475569" text-anchor="middle">Single chime + brief confirm</text>
+    <text x="121" y="128" font-size="9" fill="#166534" text-anchor="middle">No redundant 4.0s hold delay</text>
+  </g>
+  <path d="M 531 347 L 545 347" stroke="#64748b" stroke-width="2" />
+  <polygon points="551,347 543,342 543,352" fill="#64748b" />
+
+  <!-- Frame 2.3 -->
+  <g transform="translate(552, 272)" filter="url(#card-sh)">
+    <rect width="242" height="150" rx="8" fill="#ffffff" stroke="#d97706" stroke-width="1.8" />
+    <rect width="242" height="24" rx="8" fill="#fef3c7" />
+    <text x="12" y="16" font-size="10" font-weight="800" fill="#92400e">3. PASSENGER CHATTER TEST</text>
+    <rect x="20" y="42" width="202" height="44" rx="6" fill="#fffbeb" stroke="#f59e0b" />
+    <text x="121" y="60" font-size="9.5" font-weight="700" fill="#92400e" text-anchor="middle">During an Open 4.0s HUD Gate:</text>
+    <text x="121" y="76" font-size="9.5" font-weight="700" fill="#0f172a" text-anchor="middle">"Stopping for coffee soon?"</text>
+    <text x="121" y="110" font-size="9.5" font-weight="600" fill="#475569" text-anchor="middle">Passenger speech enters mic</text>
+    <text x="121" y="128" font-size="9.5" font-weight="700" fill="#b45309" text-anchor="middle">Evaluated by Domain Guard</text>
+  </g>
+  <path d="M 795 347 L 809 347" stroke="#64748b" stroke-width="2" />
+  <polygon points="815,347 807,342 807,352" fill="#64748b" />
+
+  <!-- Frame 2.4 -->
+  <g transform="translate(816, 272)" filter="url(#card-sh)">
+    <rect width="240" height="150" rx="8" fill="#ffffff" stroke="#16a34a" stroke-width="1.8" />
+    <rect width="240" height="24" rx="8" fill="#dcfce7" />
+    <text x="12" y="16" font-size="10" font-weight="800" fill="#166534">4. CHATTER SAFELY REJECTED</text>
+    <rect x="20" y="42" width="200" height="44" rx="6" fill="#f0fdf4" stroke="#16a34a" />
+    <text x="120" y="60" font-size="9" font-weight="800" fill="#166534" text-anchor="middle">IGNORED_PASSENGER_CHATTER</text>
+    <text x="120" y="76" font-size="9" font-weight="600" fill="#0f172a" text-anchor="middle">No repair marker or slot token</text>
+    <text x="120" y="110" font-size="9.5" font-weight="700" fill="#0f172a" text-anchor="middle">4.0s ring continues safely</text>
+    <text x="120" y="128" font-size="9" fill="#166534" text-anchor="middle">Prevents false route/call hijack</text>
+  </g>
+
+  <!-- ================= STORYBOARD 3 ================= -->
+  <rect x="24" y="442" width="1032" height="30" rx="6" fill="#0f172a" />
+  <text x="38" y="462" font-size="12" font-weight="800" fill="#ffffff">STORYBOARD 3: CROSSWIND OUTBOUND CALL (c = 0.36) — HIGH-RISK HOLD &amp; THUMB-SWITCH FALLBACK</text>
+
+  <!-- Frame 3.1 -->
+  <g transform="translate(24, 482)" filter="url(#card-sh)">
+    <rect width="242" height="150" rx="8" fill="#ffffff" stroke="#0284c7" stroke-width="1.8" />
+    <rect width="242" height="24" rx="8" fill="#e0f2fe" />
+    <text x="12" y="16" font-size="10" font-weight="800" fill="#0369a1">1. HIGH-RISK CALL IN WIND</text>
+    <rect x="20" y="42" width="202" height="44" rx="6" fill="#f1f5f9" stroke="#94a3b8" />
+    <text x="121" y="60" font-size="9.5" font-weight="700" fill="#0f172a" text-anchor="middle">Driver: "Call Dr. Patel"</text>
+    <text x="121" y="75" font-size="9.5" font-weight="700" fill="#dc2626" text-anchor="middle">ASR: "Call Daughter Payal"</text>
+    <text x="121" y="110" font-size="9.5" font-weight="600" fill="#475569" text-anchor="middle">75 mph crosswind (78 dB)</text>
+    <text x="121" y="128" font-size="9.5" font-weight="700" fill="#dc2626" text-anchor="middle">Risk-adj c = 0.36 (&lt; 0.45)</text>
+  </g>
+  <path d="M 267 557 L 281 557" stroke="#64748b" stroke-width="2" />
+  <polygon points="287,557 279,552 279,562" fill="#64748b" />
+
+  <!-- Frame 3.2 -->
+  <g transform="translate(288, 482)" filter="url(#card-sh)">
+    <rect width="242" height="150" rx="8" fill="#ffffff" stroke="#dc2626" stroke-width="1.8" />
+    <rect width="242" height="24" rx="8" fill="#fee2e2" />
+    <text x="12" y="16" font-size="10" font-weight="800" fill="#991b1b">2. OUTBOUND DIALING HELD</text>
+    <rect x="20" y="42" width="202" height="44" rx="6" fill="#fef2f2" stroke="#ef4444" />
+    <text x="121" y="60" font-size="10" font-weight="800" fill="#991b1b" text-anchor="middle">State: CLARIFYING</text>
+    <text x="121" y="76" font-size="9.5" font-weight="700" fill="#0f172a" text-anchor="middle">Auto-dialing blocked</text>
+    <text x="121" y="110" font-size="9.5" font-weight="600" fill="#475569" text-anchor="middle">Prevents awkward unintended</text>
+    <text x="121" y="128" font-size="9.5" font-weight="700" fill="#991b1b" text-anchor="middle">outbound call while driving</text>
+  </g>
+  <path d="M 531 557 L 545 557" stroke="#64748b" stroke-width="2" />
+  <polygon points="551,557 543,552 543,562" fill="#64748b" />
+
+  <!-- Frame 3.3 -->
+  <g transform="translate(552, 482)" filter="url(#card-sh)">
+    <rect width="242" height="150" rx="8" fill="#ffffff" stroke="#d97706" stroke-width="1.8" />
+    <rect width="242" height="24" rx="8" fill="#fef3c7" />
+    <text x="12" y="16" font-size="10" font-weight="800" fill="#92400e">3. EYE-LINE HUD + THUMB PILLS</text>
+    <rect x="16" y="34" width="210" height="66" rx="6" fill="#0f172a" />
+    <text x="121" y="50" font-size="8.8" font-weight="700" fill="#f8fafc" text-anchor="middle">"Daughter Payal, or Dr. Patel?"</text>
+    <rect x="24" y="58" width="92" height="32" rx="5" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5" />
+    <text x="70" y="77" font-size="9.5" font-weight="800" fill="#78350f" text-anchor="middle">[←] Payal</text>
+    <rect x="126" y="58" width="92" height="32" rx="5" fill="#cffafe" stroke="#06b6d4" stroke-width="1.5" />
+    <text x="172" y="77" font-size="9.5" font-weight="800" fill="#083344" text-anchor="middle">[→] Dr. Patel</text>
+    <text x="121" y="118" font-size="9.5" font-weight="700" fill="#0f172a" text-anchor="middle">Peripheral windshield HUD</text>
+    <text x="121" y="134" font-size="9" fill="#475569" text-anchor="middle">Accessible for noisy / HoH drivers</text>
+  </g>
+  <path d="M 795 557 L 809 557" stroke="#64748b" stroke-width="2" />
+  <polygon points="815,557 807,552 807,562" fill="#64748b" />
+
+  <!-- Frame 3.4 -->
+  <g transform="translate(816, 482)" filter="url(#card-sh)">
+    <rect width="240" height="150" rx="8" fill="#ffffff" stroke="#16a34a" stroke-width="1.8" />
+    <rect width="240" height="24" rx="8" fill="#dcfce7" />
+    <text x="12" y="16" font-size="10" font-weight="800" fill="#166534">4. MULTIMODAL RESOLUTION</text>
+    <rect x="20" y="38" width="200" height="40" rx="6" fill="#f0fdf4" stroke="#16a34a" />
+    <text x="120" y="55" font-size="9" font-weight="800" fill="#166534" text-anchor="middle">Says "Actually Dr. Patel"</text>
+    <text x="120" y="70" font-size="8.8" fill="#0f172a" text-anchor="middle">OR clicks [→] steering thumb switch</text>
+    <text x="120" y="104" font-size="9.5" font-weight="700" fill="#0f172a" text-anchor="middle">Connected: Dr. Patel</text>
+    <text x="120" y="124" font-size="9.5" font-weight="700" fill="#16a34a" text-anchor="middle">Safe eyes-forward call placed</text>
+  </g>
+</svg>

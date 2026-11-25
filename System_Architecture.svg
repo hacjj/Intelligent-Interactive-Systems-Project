@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 620" width="100%" height="100%" style="background-color: #ffffff; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  <defs>
+    <filter id="shadow" x="-4%" y="-4%" width="108%" height="110%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.07" />
+    </filter>
+  </defs>
+
+  <rect x="10" y="10" width="1040" height="600" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5" />
+
+  <rect x="25" y="22" width="1010" height="46" rx="8" fill="#0f172a" />
+  <text x="42" y="50" font-size="14" font-weight="800" fill="#ffffff">DRIVEHUD DECISION-THEORETIC ARCHITECTURE &amp; AI CONTROL FLOW</text>
+
+  <rect x="555" y="32" width="140" height="26" rx="13" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5" />
+  <text x="625" y="49" font-size="10.5" font-weight="800" fill="#166534" text-anchor="middle">IMPLEMENTED</text>
+
+  <rect x="708" y="32" width="140" height="26" rx="13" fill="#fef3c7" stroke="#d97706" stroke-width="1.5" />
+  <text x="778" y="49" font-size="10.5" font-weight="800" fill="#92400e" text-anchor="middle">SIMULATED</text>
+
+  <rect x="861" y="32" width="158" height="26" rx="13" fill="#f3e8ff" stroke="#7c3aed" stroke-width="1.5" stroke-dasharray="4,2" />
+  <text x="940" y="49" font-size="10.5" font-weight="800" fill="#6b21a8" text-anchor="middle">PLANNED (FUTURE)</text>
+
+  <g transform="translate(30, 95)" filter="url(#shadow)">
+    <rect width="195" height="95" rx="8" fill="#ffffff" stroke="#0284c7" stroke-width="2" />
+    <rect width="195" height="24" rx="8" fill="#e0f2fe" />
+    <text x="97.5" y="16" font-size="10.5" font-weight="800" fill="#0369a1" text-anchor="middle">DRIVER &amp; WORKLOAD</text>
+    <text x="97.5" y="45" font-size="11.5" font-weight="700" fill="#0f172a" text-anchor="middle">Eyes-On-Road Driver</text>
+    <text x="97.5" y="63" font-size="10" fill="#475569" text-anchor="middle">Steering PTT + lane keeping</text>
+    <text x="97.5" y="79" font-size="10" fill="#64748b" text-anchor="middle">+ 54–78 dB road/wind SNR</text>
+  </g>
+
+  <g transform="translate(30, 235)" filter="url(#shadow)">
+    <rect width="195" height="92" rx="8" fill="#faf5ff" stroke="#7c3aed" stroke-width="2" stroke-dasharray="5,3" />
+    <rect width="195" height="24" rx="8" fill="#f3e8ff" />
+    <text x="97.5" y="16" font-size="10" font-weight="800" fill="#6b21a8" text-anchor="middle">PLANNED: CABIN HARDWARE</text>
+    <text x="97.5" y="45" font-size="11" font-weight="700" fill="#1e293b" text-anchor="middle">Seat-Zone Beamforming</text>
+    <text x="97.5" y="61" font-size="11" font-weight="700" fill="#1e293b" text-anchor="middle">Microphone Array</text>
+    <text x="97.5" y="79" font-size="9.5" fill="#6b21a8" text-anchor="middle">Isolates driver seat audio</text>
+  </g>
+
+  <g transform="translate(30, 365)" filter="url(#shadow)">
+    <rect width="195" height="92" rx="8" fill="#faf5ff" stroke="#7c3aed" stroke-width="2" stroke-dasharray="5,3" />
+    <rect width="195" height="24" rx="8" fill="#f3e8ff" />
+    <text x="97.5" y="16" font-size="10" font-weight="800" fill="#6b21a8" text-anchor="middle">PLANNED: CABIN AI SENSOR</text>
+    <text x="97.5" y="45" font-size="11" font-weight="700" fill="#1e293b" text-anchor="middle">IR Gaze &amp; Corrective</text>
+    <text x="97.5" y="61" font-size="11" font-weight="700" fill="#1e293b" text-anchor="middle">Prosody Classifier</text>
+    <text x="97.5" y="79" font-size="9.5" fill="#6b21a8" text-anchor="middle">Pauses gate during merges</text>
+  </g>
+
+  <g transform="translate(290, 95)" filter="url(#shadow)">
+    <rect width="225" height="105" rx="8" fill="#fffbeb" stroke="#d97706" stroke-width="2" />
+    <rect width="225" height="24" rx="8" fill="#fef3c7" />
+    <text x="112.5" y="16" font-size="10" font-weight="800" fill="#92400e" text-anchor="middle">SIMULATED: CABIN SNR + ASR</text>
+    <text x="112.5" y="45" font-size="11.5" font-weight="700" fill="#0f172a" text-anchor="middle">Acoustic Posterior Harness</text>
+    <text x="112.5" y="63" font-size="10" fill="#475569" text-anchor="middle">Web Speech + Spectral Sibilance</text>
+    <text x="112.5" y="79" font-size="10" fill="#92400e" text-anchor="middle">Outputs posterior P(s₁|x, SNR)</text>
+    <text x="112.5" y="94" font-size="9.5" fill="#78350f" text-anchor="middle">+ 120-trial Monte Carlo corpus</text>
+  </g>
+
+  <g transform="translate(290, 235)" filter="url(#shadow)">
+    <rect width="225" height="92" rx="8" fill="#ffffff" stroke="#16a34a" stroke-width="2" />
+    <rect width="225" height="24" rx="8" fill="#dcfce7" />
+    <text x="112.5" y="16" font-size="10" font-weight="800" fill="#166534" text-anchor="middle">IMPLEMENTED: PYTHON NLU</text>
+    <text x="112.5" y="45" font-size="11.5" font-weight="700" fill="#0f172a" text-anchor="middle">Articulatory Phonetic Graph</text>
+    <text x="112.5" y="63" font-size="10" fill="#475569" text-anchor="middle">Nav / Comms / Climate / ADAS</text>
+    <text x="112.5" y="79" font-size="10" fill="#166534" text-anchor="middle">Phoneme edit-distance N-best</text>
+  </g>
+
+  <g transform="translate(575, 95)" filter="url(#shadow)">
+    <rect width="215" height="125" rx="8" fill="#ffffff" stroke="#16a34a" stroke-width="2" />
+    <rect width="215" height="24" rx="8" fill="#dcfce7" />
+    <text x="107.5" y="16" font-size="10" font-weight="800" fill="#166534" text-anchor="middle">IMPLEMENTED: HORVITZ ROUTER</text>
+    <text x="107.5" y="44" font-size="11.5" font-weight="700" fill="#0f172a" text-anchor="middle">Expected-Loss Policy (argmin EL)</text>
+    <text x="107.5" y="64" font-size="9.8" font-weight="600" fill="#166534" text-anchor="middle">• Direct Commit: (1−P)·L_err</text>
+    <text x="107.5" y="82" font-size="9.8" font-weight="600" fill="#b45309" text-anchor="middle">• 4s Prosodic Gate: L_p(W)+miss</text>
+    <text x="107.5" y="100" font-size="9.8" font-weight="600" fill="#dc2626" text-anchor="middle">• Explicit Hold: L_h(W)+0.02·L_err</text>
+  </g>
+
+  <g transform="translate(575, 265)" filter="url(#shadow)">
+    <rect width="215" height="110" rx="8" fill="#ffffff" stroke="#16a34a" stroke-width="2" />
+    <rect width="215" height="24" rx="8" fill="#dcfce7" />
+    <text x="107.5" y="16" font-size="10" font-weight="800" fill="#166534" text-anchor="middle">IMPLEMENTED: STATE MACHINE</text>
+    <text x="107.5" y="45" font-size="11.5" font-weight="700" fill="#0f172a" text-anchor="middle">Pre-Execution Grounding Buffer</text>
+    <text x="107.5" y="63" font-size="10" fill="#475569" text-anchor="middle">Holds route / call / ADAS slot</text>
+    <text x="107.5" y="79" font-size="10" fill="#166534" text-anchor="middle">4.0s wake-word-free open mic</text>
+    <text x="107.5" y="95" font-size="9.5" fill="#64748b" text-anchor="middle">Auto-commits if no objection</text>
+  </g>
+
+  <g transform="translate(290, 365)" filter="url(#shadow)">
+    <rect width="225" height="105" rx="8" fill="#ffffff" stroke="#16a34a" stroke-width="2" />
+    <rect width="225" height="24" rx="8" fill="#dcfce7" />
+    <text x="112.5" y="16" font-size="10" font-weight="800" fill="#166534" text-anchor="middle">IMPLEMENTED: REPAIR + GUARD</text>
+    <text x="112.5" y="44" font-size="11.5" font-weight="700" fill="#0f172a" text-anchor="middle">Slot Patch &amp; Chatter Filter</text>
+    <text x="112.5" y="62" font-size="10" fill="#475569" text-anchor="middle">Patches "No, 14" / "Dr. Patel"</text>
+    <text x="112.5" y="78" font-size="10" font-weight="600" fill="#166534" text-anchor="middle">Rejects passenger conversation</text>
+    <text x="112.5" y="94" font-size="9.5" fill="#64748b" text-anchor="middle">+ Steering thumb-switch input</text>
+  </g>
+
+  <g transform="translate(575, 420)" filter="url(#shadow)">
+    <rect width="215" height="105" rx="8" fill="#ffffff" stroke="#16a34a" stroke-width="2" />
+    <rect width="215" height="24" rx="8" fill="#dcfce7" />
+    <text x="107.5" y="16" font-size="10" font-weight="800" fill="#166534" text-anchor="middle">IMPLEMENTED: AR-HUD + AUDIO</text>
+    <text x="107.5" y="44" font-size="11.5" font-weight="700" fill="#0f172a" text-anchor="middle">Prosodic TTS &amp; Windshield HUD</text>
+    <text x="107.5" y="62" font-size="10" fill="#475569" text-anchor="middle">Rising intonation + Spatial Earcon</text>
+    <text x="107.5" y="78" font-size="10" fill="#166534" text-anchor="middle">Eye-line pills + Conic Progress Ring</text>
+    <text x="107.5" y="94" font-size="9.5" fill="#64748b" text-anchor="middle">+ Live Expected-Loss Inspector</text>
+  </g>
+
+  <g transform="translate(850, 215)" filter="url(#shadow)">
+    <rect width="180" height="120" rx="8" fill="#ffffff" stroke="#16a34a" stroke-width="2.5" />
+    <rect width="180" height="24" rx="8" fill="#dcfce7" />
+    <text x="90" y="16" font-size="10" font-weight="800" fill="#166534" text-anchor="middle">IMPLEMENTED: VEHICLE BUS</text>
+    <text x="90" y="48" font-size="11.5" font-weight="700" fill="#0f172a" text-anchor="middle">4 Vehicle Subsystems</text>
+    <text x="90" y="66" font-size="10" fill="#475569" text-anchor="middle">Navigation, Climate,</text>
+    <text x="90" y="81" font-size="10" fill="#475569" text-anchor="middle">Comms &amp; ADAS Limiter</text>
+    <text x="90" y="102" font-size="9.5" font-weight="700" fill="#166534" text-anchor="middle">+ Safety Telemetry Store</text>
+  </g>
+
+  <path d="M 225 142 L 282 142" fill="none" stroke="#334155" stroke-width="2" />
+  <polygon points="290,142 280,137 280,147" fill="#334155" />
+  <text x="255" y="133" font-size="9.5" font-weight="700" fill="#334155" text-anchor="middle">PTT Voice</text>
+
+  <path d="M 127 190 L 127 227" fill="none" stroke="#7c3aed" stroke-width="1.8" stroke-dasharray="4,3" />
+  <polygon points="127,235 122,225 132,225" fill="#7c3aed" />
+  <text x="165" y="213" font-size="9" font-weight="600" fill="#6b21a8" text-anchor="middle">Cabin audio</text>
+
+  <path d="M 225 270 L 260 270 L 260 165 L 282 165" fill="none" stroke="#7c3aed" stroke-width="1.8" stroke-dasharray="4,3" />
+  <polygon points="290,165 280,160 280,170" fill="#7c3aed" />
+
+  <path d="M 402 200 L 402 227" fill="none" stroke="#d97706" stroke-width="2" />
+  <polygon points="402,235 397,225 407,225" fill="#d97706" />
+  <text x="458" y="218" font-size="9.5" font-weight="700" fill="#92400e" text-anchor="middle">1-Best + P(s₁|x)</text>
+
+  <path d="M 515 275 L 545 275 L 545 155 L 567 155" fill="none" stroke="#16a34a" stroke-width="2" />
+  <polygon points="575,155 565,150 565,160" fill="#16a34a" />
+  <text x="545" y="136" font-size="9" font-weight="700" fill="#166534" text-anchor="middle">L_err + W</text>
+
+  <path d="M 790 145 L 940 145 L 940 207" fill="none" stroke="#16a34a" stroke-width="2.2" />
+  <polygon points="940,215 935,205 945,205" fill="#16a34a" />
+  <text x="875" y="136" font-size="9.5" font-weight="700" fill="#166534" text-anchor="middle">argmin = Direct</text>
+
+  <path d="M 682 220 L 682 257" fill="none" stroke="#d97706" stroke-width="2.2" />
+  <polygon points="682,265 677,255 687,255" fill="#d97706" />
+  <text x="738" y="244" font-size="9.5" font-weight="700" fill="#b45309" text-anchor="middle">argmin = Gate / Hold</text>
+
+  <path d="M 682 375 L 682 412" fill="none" stroke="#16a34a" stroke-width="2" />
+  <polygon points="682,420 677,410 687,410" fill="#16a34a" />
+  <text x="738" y="398" font-size="9.5" font-weight="700" fill="#166534" text-anchor="middle">Project HUD</text>
+
+  <path d="M 575 505 L 18 505 L 18 142 L 24 142" fill="none" stroke="#334155" stroke-width="2" stroke-dasharray="5,3" />
+  <polygon points="30,142 21,137 21,147" fill="#334155" />
+  <text x="350" y="524" font-size="10" font-weight="700" fill="#0f172a" text-anchor="middle">Prosodic readback ("Routing to 40 Oak Road...?") + Eye-line AR-HUD Progress Ring</text>
+
+  <path d="M 225 415 L 282 415" fill="none" stroke="#16a34a" stroke-width="2" />
+  <polygon points="290,415 280,410 280,420" fill="#16a34a" />
+  <text x="255" y="405" font-size="9" font-weight="700" fill="#166534" text-anchor="middle">"No, 14"</text>
+
+  <path d="M 225 435 L 282 435" fill="none" stroke="#7c3aed" stroke-width="1.8" stroke-dasharray="4,3" />
+  <polygon points="290,435 280,430 280,440" fill="#7c3aed" />
+
+  <path d="M 515 415 L 548 415 L 548 325 L 567 325" fill="none" stroke="#16a34a" stroke-width="2" />
+  <polygon points="575,325 565,320 565,330" fill="#16a34a" />
+  <text x="542" y="315" font-size="9.5" font-weight="700" fill="#166534" text-anchor="middle">Slot patch</text>
+
+  <path d="M 790 315 L 842 295" fill="none" stroke="#16a34a" stroke-width="2.2" />
+  <polygon points="850,292 839,291 843,300" fill="#16a34a" />
+  <text x="895" y="356" font-size="9.5" font-weight="700" fill="#166534" text-anchor="middle">Repaired / 4s elapsed</text>
+</svg>
