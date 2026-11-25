@@ -461,7 +461,7 @@ def build_docx_and_md():
     with open("Project_Report_3149895.md", "w", encoding="utf-8") as fmd:
         fmd.write("\n".join(md_lines) + "\n")
 
-    print("Successfully built MSc DriveHUD Project_Report_3149895.docx and Project_Report_3149895.md!")
+    print("Successfully built DriveHUD Project_Report_3149895.docx and Project_Report_3149895.md!")
     print(f"Verified counts -> Abstract: {a_w}w | Main Report (Prose {p_w}w + Table {t_w}w): {m_w}w | Total Counted: {tot_w}w")
 
 if __name__ == "__main__":
