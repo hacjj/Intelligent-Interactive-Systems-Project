@@ -1,5 +1,5 @@
 /**
- * DriveHUD MSc Frontend Controller — AR Traffic Windshield, Spectrum Analyzer,
+ * DriveHUD Frontend Controller — AR Traffic Windshield, Spectrum Analyzer,
  * Horvitz Expected-Loss HUD, Hybrid Speech Pipeline & 120-Trial Policy Benchmark
  * University of Birmingham — Intelligent Interactive Systems (3149895)
  */
